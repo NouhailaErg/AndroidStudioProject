@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/phone_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez un numéro de téléphone"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/call_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passer un appel" />
+
+        <!-- Envoyer un SMS -->
+        <EditText
+            android:id="@+id/sms_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez un numéro pour le SMS"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/sms_content_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez le contenu du SMS"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/sms_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer un SMS" />
+
+        <Button
+            android:id="@+id/email_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer un email" />
+
+        <EditText
+            android:id="@+id/share_content_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contenu à partager"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Partager" />
+
+        <EditText
+            android:id="@+id/location_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez une adresse ou des coordonnées" />
+
+        <Button
+            android:id="@+id/maps_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ouvrir Google Maps" />
+
+        <EditText
+            android:id="@+id/url_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrez une URL"
+            android:inputType="textUri" />
+
+        <Button
+            android:id="@+id/browser_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ouvrir le navigateur" />
+    </LinearLayout>
+
+</ScrollView>
